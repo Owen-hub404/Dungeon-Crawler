@@ -1,4 +1,4 @@
-public class Mostro extends Creature{
+public class Mostro extends Creatura{
     private Object bottino;
 
     public Mostro(String name, int puntiVita, int puntiAttacco, Object bottino) {

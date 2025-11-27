@@ -33,7 +33,7 @@ Una volta confermate le scelte, inizia immediatamente l'esplorazione del dungeon
 
 ## 🧙‍♂️ Entità del Gioco
 
-### Eroi (Giocatore)
+### Eroe (Giocatore)
 Tre classi disponibili:
 - **Guerriero**
 - **Mago** *(attacco magico)*
