@@ -9,6 +9,9 @@ public class Creatura {
         this.puntiAttacco = puntiAttacco;
     }
 
+    public Creatura(String nome) {
+    }
+
     public String getName() {
         return name;
     }

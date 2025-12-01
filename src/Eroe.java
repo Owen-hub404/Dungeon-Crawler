@@ -2,6 +2,7 @@ public class Eroe extends Creatura{
     private int livello;
     private int AttaccoMagico;
     private Object inventario;
+    private int puntiVita;
 
     public Eroe(String name, int livello, int puntiVita, int puntiAttacco, int AttaccoMagico, Object inventario) {
         super(name, puntiVita, puntiAttacco);
@@ -32,6 +33,10 @@ public class Eroe extends Creatura{
 
     public void setInventario(Object inventario) {
         this.inventario = inventario;
+    }
+
+    public void saliLivello() {
+        this.livello+=1;
     }
 
     @Override
