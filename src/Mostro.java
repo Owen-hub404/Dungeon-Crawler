@@ -14,6 +14,10 @@ public class Mostro extends Creatura{
         this.bottino = bottino;
     }
 
+    public static int dropMonetina() {
+        return (int) (Math.random() * 10) + 1;
+    }
+
     @Override
     public String toString() {
         return "Mostro{" +

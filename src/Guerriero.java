@@ -1,6 +1,6 @@
 public class Guerriero extends Eroe{
     public Guerriero(String name) {
-        super(name, 1, 120, 20, 0, null);
+        super(name, 1, 120, 20, 0, null, 0);
     }
 
     public void attaccoPotente(Creatura mostro) {

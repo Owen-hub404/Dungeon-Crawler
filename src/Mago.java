@@ -1,6 +1,6 @@
 public class Mago extends Eroe{
     public Mago (String name){
-        super(name, 1, 70, 5, 30, null);
+        super(name, 1, 70, 5, 30, null, 0);
     }
 
     public void lanciaIncantesimo(Creatura mostro) {

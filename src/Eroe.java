@@ -3,12 +3,15 @@ public class Eroe extends Creatura{
     private int AttaccoMagico;
     private Object inventario;
     private int puntiVita;
+    private int moneta;
 
-    public Eroe(String name, int livello, int puntiVita, int puntiAttacco, int AttaccoMagico, Object inventario) {
+    public Eroe(String name, int livello, int puntiVita, int puntiAttacco, int AttaccoMagico, Object inventario, int moneta) {
         super(name, puntiVita, puntiAttacco);
         this.livello = 1;
         this.AttaccoMagico = AttaccoMagico;
         this.inventario = null;
+        this.puntiVita = puntiVita;
+        this.moneta = 0;
     }
 
     public int getLivello() {
